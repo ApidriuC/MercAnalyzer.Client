@@ -33,8 +33,6 @@ Su objetivo es ayudar a las personas a tomar **mejores decisiones de compra** mo
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 </div>
 
----
-
 ## 🧠 Funcionalidades
 
 - 🔍 **Búsqueda de productos** en tiempo real desde Mercado Libre.
