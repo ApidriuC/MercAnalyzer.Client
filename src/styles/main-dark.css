@@ -1,0 +1,195 @@
+:root {
+    --color-dark-default: #E0F1F1;
+    --color-yellow-default: #FFE58F;
+    --shadow-light-darktheme: 5px 5px 20px rgb(32 32 32 / 45%);
+    --icon-light-theme: url('src/assets/images/icon-light-theme.webp');
+    --icon-logout-light: url('src/assets/images/icon-logout-light.webp');
+    --icon-user-light: url('src/assets/images/icon-user-light.webp');
+    --icon-search-dark: url('src/assets/images/icon-search-dark.webp');
+}
+
+.dark #root {
+    color: var(--color-dark-default);
+}
+
+.dark .theme {
+    background-image: var(--icon-light-theme);
+    background-color: white;
+}
+
+.dark .container-login {
+    background-color: #2f2b37;
+}
+
+.dark .container-login .main-content {
+    box-shadow: var(--shadow-light-darktheme);
+    background: linear-gradient(0deg, rgb(8 19 43 / 45%), rgb(192 199 205 / 40%) 100%);
+}
+
+.dark .container-login .main-content .content h2 {
+    color: var(--color-dark-default);
+}
+
+.dark .login-form,
+.dark .register-form {
+    background-color: rgb(8 19 43 / 45%);
+    box-shadow: var(--shadow-light-darktheme);
+}
+
+.dark .login-form,
+.dark .register-form * {
+    color: var(--color-dark-default);
+}
+
+.dark .register-form .form .input-container label,
+.dark .login-form .form .input-container label {
+    color: var(--color-dark-default);
+}
+
+.dark .container-login .main-content .navbar .button-login,
+.dark .container-login .main-content .navbar .button-register {
+    color: white;
+}
+
+.dark .container-login .main-content .navbar .button-register.selected,
+.dark .container-login .main-content .navbar .button-login.selected {
+    color: var(--color-yellow-default);
+    border-bottom: 1px solid var(--color-yellow-default);
+}
+
+.dark .container-login .main-content .navbar .button-register:hover,
+.dark .container-login .main-content .navbar .button-login:hover {
+    color: var(--color-yellow-default);
+}
+
+.dark .login-form .form .button-submit,
+.dark .register-form .form .button-submit {
+    background-color: var(--color-dark-default);
+    border-color: var(--color-dark-default);
+    color: var(--color-blue-dark);
+}
+
+.dark .login-form .form .button-submit:hover,
+.dark .register-form .form .button-submit:hover {
+    background-color: white;
+    border-color: white;
+}
+
+.dark .container-login .main-content .content .button-try {
+    background-color: var(--color-dark-default);
+    border-color: var(--color-dark-default);
+    color: var(--color-blue-dark);
+}
+
+.dark .container-login .main-content .content .button-try:hover {
+    background-color: white;
+    border-color: white;
+}
+
+.dark .container-login .main-content .content p {
+    color: white;
+}
+
+.dark .login-form .form h2,
+.dark .register-form .form h2 {
+    border-color: #808080;
+}
+
+.dark .login-form .form .extra-links a {
+    color: var(--color-dark-default);
+}
+
+.dark .register-form .form .others-options *,
+.dark .login-form .form .others-options * {
+    color: var(--color-dark-default);
+}
+
+.dark .register-form .form .others-options .separator span,
+.dark .login-form .form .others-options .separator span {
+    background-color: #808080;
+}
+
+.dark .register-form .form .others-options button,
+.dark .login-form .form .others-options button {
+    color: var(--color-dark-default);
+    border-color: var(--color-dark-default);
+}
+
+.dark .container-home {
+    background: linear-gradient(0deg, rgb(26 30 39), rgb(89 87 105) 100%)
+}
+
+.dark .text-user p {
+    background-image: var(--icon-user-light);
+}
+
+.dark .container-home .navbar .button-signout {
+    background-image: var(--icon-logout-light);
+    color: var(--color-dark-default);
+}
+
+.dark .container-home .navbar .button-signout:hover {
+    color: var(--color-yellow-default);
+}
+
+.dark .container-home .search-home__title * {
+    color: var(--color-dark-default);
+}
+
+.dark .container-home .search-home__title p {
+    color: white;
+}
+
+.dark .container-home .search-home__title .search-home__title {
+    color: white;
+}
+
+.dark .container-home .search-home__content .search-home__input input {
+    color: var(--color-blue-dark);
+    box-shadow: var(--shadow-light-darktheme);
+}
+
+.dark .container-home .search-home__content .search-home__input button {
+    color: var(--color-blue-dark);
+    background-color: var(--color-dark-default);
+    border-color: var(--color-dark-default);
+    background-image: var(--icon-search-dark);
+}
+
+.dark .container-home .search-home__content .search-home__input button:hover {
+    background-color: white;
+    border-color: white;
+    color: var(--color-blue-dark);
+}
+
+.dark .container-home .search-home .cards-container .product-name p {
+    color: var(--color-dark-default);
+}
+
+.dark .container-home .search-home .information-cards {
+    color: white;
+}
+
+.dark .container-home .search-home .cards-container .product-price .price span {
+    color: var(--color-blue-dark);
+}
+
+.dark .container-home .search-home .cards-container .product-card {
+    box-shadow: var(--shadow-light-darktheme);
+}
+
+.dark .loading-spinner * {
+    background-color: var(--color-yellow-default) !important;
+}
+
+
+.dark .chat-toggle-btn {
+    background-color: var(--color-dark-default);
+    border-color: var(--color-dark-default);
+    color: var(--color-blue-dark);
+}
+
+.dark .chat-toggle-btn:hover {
+    background-color: white;
+    border-color: white;
+}

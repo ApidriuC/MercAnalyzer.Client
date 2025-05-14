@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "target": "ESNext", // Especifica la versión de JS que generará el compilador.
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ], // Bibliotecas a incluir (DOM para navegadores).
+        "allowJs": true, // Permite usar archivos JS junto a TS.
+        "skipLibCheck": true, // Omite la verificación de tipos en los archivos .d.ts.
+        "esModuleInterop": true, // Facilita la interoperabilidad con módulos CommonJS.
+        "strict": true, // Habilita todas las verificaciones estrictas.
+        "forceConsistentCasingInFileNames": true, // Asegura consistencia en nombres de archivos.
+        "module": "ESNext", // Usa el sistema de módulos ES6.
+        "moduleResolution": "Node", // Resuelve módulos al estilo Node.js.
+        "resolveJsonModule": true, // Permite importar archivos JSON.
+        "isolatedModules": true, // Verifica que cada archivo tenga su propio contexto.
+        "noEmit": true, // No genera archivos JS al compilar.
+        "jsx": "react-jsx", // Usa la nueva transformada de JSX de React (React 17+).
+        "allowSyntheticDefaultImports": true,
+        "allowImportingTsExtensions": true,
+        "baseUrl": "./src",
+        "paths": {
+            "@assets/*": [
+                "assets/*"
+            ]
+        }
+    },
+    "include": [
+        "src",
+        "custom.d.ts" // Incluir tipados personalizados.
+    ],
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
+}
