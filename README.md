@@ -47,22 +47,17 @@ Su objetivo es ayudar a las personas a tomar **mejores decisiones de compra** mo
 ## 🖼️ Siguela en vivo
 
 ### 🔐 Login - Tema Oscuro
-![Login Oscuro] 
-<img src="https://github.com/ApidriuC/MercAnalyzer.Client/blob/main/src/assets/images/ThemeDarkSs.png" alt="Login Oscuro" style="width:50%;"/>
+![Login Oscuro](https://github.com/ApidriuC/MercAnalyzer.Client/blob/main/src/assets/images/ThemeDarkSs.png)
 > Pantalla de inicio de sesión con el tema oscuro activado.
 
 ### 📝 Registro - Tema Claro
-![Registro Claro]
-<img src="https://github.com/ApidriuC/MercAnalyzer.Client/blob/main/src/assets/images/LightThemeSs.png" alt="Registro Claro" style="width:50%;"/>
+![Registro Claro](https://github.com/ApidriuC/MercAnalyzer.Client/blob/main/src/assets/images/LightThemeSs.png)
 > Pantalla de registro con el tema claro. Permite crear una cuenta para acceder a las funcionalidades del sistema.
 
 ### 🌙 Buscador - Tema Oscuro
-![Buscador Oscuro]
-<img src="https://github.com/ApidriuC/MercAnalyzer.Client/blob/main/src/assets/images/SearchDarkThemeSs.png" alt="Buscador Oscuro" style="width:50%;"/>
+![Buscador Oscuro](https://github.com/ApidriuC/MercAnalyzer.Client/blob/main/src/assets/images/SearchDarkThemeSs.png)
 > Vista principal en modo oscuro. Ideal para entornos con poca luz o preferencia estética del usuario.
 
 ### 🔍 Buscador - Tema Claro
-![Buscador Claro]
-<img src="https://github.com/ApidriuC/MercAnalyzer.Client/blob/main/src/assets/images/SearchLightThemeSs.png" alt="Buscador Claro" style="width:50%;"/>
+![Buscador Claro](https://github.com/ApidriuC/MercAnalyzer.Client/blob/main/src/assets/images/SearchLightThemeSs.png)
 > Vista principal de la plataforma en tema claro. Se puede ingresar una palabra clave para iniciar el análisis de precios en Mercado Libre.
-
