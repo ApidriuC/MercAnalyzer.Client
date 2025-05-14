@@ -41,3 +41,24 @@ Su objetivo es ayudar a las personas a tomar **mejores decisiones de compra** mo
 - 📊 **Gráficas de comportamiento** de los precios por palabra clave.
 - 📝 **Historial de búsquedas** para consultar análisis anteriores.
 - 🎨 **Interfaz moderna** con navegación fluida, clara y responsive.
+
+---
+
+## 🖼️ Siguela en vivo
+
+### 🔐 Login - Tema Oscuro
+![Login Oscuro](https://github.com/ApidriuC/MercAnalyzer.Client/blob/main/src/assets/images/ThemeDarkSs.png)
+> Pantalla de inicio de sesión con el tema oscuro activado.
+
+### 📝 Registro - Tema Claro
+![Registro Claro](https://github.com/ApidriuC/MercAnalyzer.Client/blob/main/src/assets/images/LightThemeSs.png)
+> Pantalla de registro con el tema claro. Permite crear una cuenta para acceder a las funcionalidades del sistema.
+
+### 🌙 Buscador - Tema Oscuro
+![Buscador Oscuro](https://github.com/ApidriuC/MercAnalyzer.Client/blob/main/src/assets/images/SearchDarkThemeSs.png)
+> Vista principal en modo oscuro. Ideal para entornos con poca luz o preferencia estética del usuario.
+
+### 🔍 Buscador - Tema Claro
+![Buscador Claro](https://github.com/ApidriuC/MercAnalyzer.Client/blob/main/src/assets/images/SearchLightThemeSs.png)
+> Vista principal de la plataforma en tema claro. Se puede ingresar una palabra clave para iniciar el análisis de precios en Mercado Libre.
+
