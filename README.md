@@ -1,30 +1,37 @@
-# 🛒 MercAnalyzer - (CLIENT)
+# 🛒 MercAnalyzer
 
-**MercAnalyzer** es una plataforma web que permite a los usuarios registrarse, iniciar sesión y consultar precios de productos en Mercado Libre. A través de técnicas de **web scraping con Python**, obtiene datos actualizados y los compara para ayudar a tomar mejores decisiones de compra.
+**MercAnalyzer** es una plataforma inteligente que permite comparar precios de productos en **Mercado Libre** en tiempo real. Utiliza técnicas de **web scraping** para obtener datos actualizados, facilitando a los usuarios tomar decisiones de compra más informadas.
 
----
-
-## 🚀 Características
-
-- 🔐 Sistema de autenticación con login y registro.
-- 🕵️‍♂️ Búsqueda y análisis de productos usando scraping.
-- 💵 Comparación de precios en tiempo real.
-- 🎨 Interfaz intuitiva.
-- 🔄 Cambios dinámicos de tema según la preferencia del sistema o usuario.
+🔗 Repositorios:
+- **Frontend**: [MercAnalyzer.Client](https://github.com/ApidriuC/MercAnalyzer.Client)
+- **API**: [MercAnalyzer.Api](https://github.com/ApidriuC/MercAnalyzer.Api)
 
 ---
 
-## 🧪 Tecnologías utilizadas
+## 🚀 Tecnologías Utilizadas
 
-### 🖥️ Frontend:
-- [React](https://github.com/CratosCamilo/MercAnalyzer.Client) (Client)
-- TypeScript
-- CSS Modules / Vanilla CSS
+### 🖥️ Frontend
 
-### 🧠 Backend:
-- [Python](https://github.com/CratosCamilo/ml-scraper) (Scraper)
-- [NextJS](https://github.com/CratosCamilo/MercAnalyzer.Api) (API)
+<div align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</div>
 
-### 🗃️ Base de datos:
-- [SQL Server](https://www.microsoft.com/en-us/sql-server)
+### 🔧 Backend (API)
+
+<div align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/BeautifulSoup-4B0082?style=for-the-badge&logo=beautifulsoup&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLAlchemy-FF6F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
+</div>
+
+## 🧩 Funcionalidades
+
+- 🔐 **Autenticación**: Registro e inicio de sesión de usuarios.
+- 🔍 **Búsqueda de Productos**: Consulta de productos en Mercado Libre mediante scraping.
+- 📊 **Comparación de Precios**: Visualización y comparación de precios en tiempo real.
+- 🎨 **Interfaz Intuitiva**: Diseño responsivo y adaptable a preferencias de tema (claro/oscuro).
 
